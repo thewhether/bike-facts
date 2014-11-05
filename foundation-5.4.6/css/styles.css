@@ -1,0 +1,38 @@
+.button {
+	background: pink;
+	color: black;
+
+}
+.button:hover {
+	background:#eee;
+	color: black;
+	border: 1px solid black;
+}
+
+  border-style: solid;
+  border-width: 0px;
+  /* these two border lines are most likely to prevent a border from ever appearing, even if there are error styles somewhere else that have borders */
+  cursor: pointer; /* make sure you get the hand cursor when you hover over a button */
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; /* fonts! */
+  font-weight: normal;
+  line-height: normal;
+  /* font-weight and line-height normal mean the buttons will never be bold/italic, and never have a ton of line spacing */
+  margin: 0 0 1.25rem; /* always have bottom margin */
+  position: relative; /* to avoid conflicts with positioning */
+  text-decoration: none; /* never be underlined */
+  text-align: center; /* text should be centered in the button */
+  display: inline-block; /* safer than floating, because they'll line up next to each other but never have issues with clearing */
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+  /* have padding around the text */
+  font-size: 1rem; /* "rems" are "relative ems" so this is a flexible value, but basically this means it will be the same font size as whatever your body font size is */
+  background-color: #008cba; /* default color */
+  border-color: #007095; /* default border color, but remember, there's 0px border set */
+  color: white; /* text color */
+  -webkit-transition: background-color 300ms ease-out;
+  -moz-transition: background-color 300ms ease-out;
+  transition: background-color 300ms ease-out;
+  /* darken the background on hover */
+}
