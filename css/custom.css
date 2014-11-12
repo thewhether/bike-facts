@@ -2,8 +2,14 @@
 	font-family: 'Bitter', serif;
 	font-size: 2em;
 	text-align: center;
+	min-height: 150%
 }
 .site-title {
 	font-family: 'bitter', serif;
 	font-size: 4em;
+}
+
+.spider-graph {
+	font-size: 600px;
+	padding-top: 50px;
 }
